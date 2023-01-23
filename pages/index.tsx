@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   const [textValue, setTextValue] = useState("");
 
   const handleAdd = () => {
-    console.log('hello')
+    console.log('hello world')
     if (!textValue || items.length >= 8) {
       return;
     }
